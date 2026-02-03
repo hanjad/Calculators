@@ -6,7 +6,7 @@ $num2 = $_POST['num2'];
 
 // validating num1 and num2
 if(empty($num1)) {
-    exit('First entry has no value');
+   exit('First entry has no value');
 }
 if(empty($num2)) {
     exit('Second entry has no value');
